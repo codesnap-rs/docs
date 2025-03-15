@@ -8,6 +8,7 @@ export default defineConfig({
       allowedHosts: true,
     }
   },
+  base: '/docs/',
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
